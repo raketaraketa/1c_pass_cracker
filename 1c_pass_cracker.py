@@ -17,7 +17,7 @@ def main():
     # Расшифровка AES в режиме CBC
     plaintext = decrypt_aes_cbc(ciphertext, key_bytes, iv_bytes)
 
-    # 
+    # отрезаем всё ненужное от пароля
     match = re.search(r'"([^"]*)"', plaintext.decode(errors='ignore'))
     if match:
         password = match.group(1)
