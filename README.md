@@ -2,16 +2,15 @@
 
 # requirements
 pip3 uninstall crypto
+
 pip3 install pycryptodome
 
-
 # usage 
+```
 python 1c_pass_cracker.py <имя_файла>
+```
 
-
-![alt text](image.png)
-
-# pass format
+## pass format
 
 ```
 Clgye7B793pA/yj8P12T4pdBVGgjzHtPlN7VVvAzmHE=
